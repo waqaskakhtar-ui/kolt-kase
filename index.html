@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kolt Kase Inc | Engineered For More | Premium Phone Armor</title>
+  <meta name="description" content="Ultra-durable, ultra-light phone cases engineered for iPhone and flagship devices. Aerospace carbon fiber, honeycomb shock absorption, and custom laser engraving.">
+  
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,700;1,800;1,900&family=Chakra+Petch:ital,wght@1,700;1,800;1,900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       GLOBAL HEADER & NAVIGATION (Glassmorphic Floating Dock)
+       ====================================================================== -->
+  <header class="global-header" id="globalHeader">
+    <div class="nav-container">
+      
+      <!-- Brand Logo Left -->
+      <a href="#hero" class="nav-brand" aria-label="Kolt Kase Inc Home">
+        <svg class="nav-logo-mark" viewBox="0 0 54 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6 4H14.5V40H6V4Z" fill="#0D263B"/>
+          <path d="M19 23L37.5 4H47.5L27 24.5L19 23Z" fill="#0D263B"/>
+          <path d="M26.5 22.5L48 40H37.5L19 23.5L26.5 22.5Z" fill="#0D263B"/>
+        </svg>
+        <span class="nav-brand-text">Kolt Kase Inc</span>
+      </a>
+
+      <!-- Center Nav Links -->
+      <ul class="nav-links">
+        <li><a href="#products" class="nav-link">Shop Cases</a></li>
+        <li><a href="#customizer" class="nav-link">Custom Studio</a></li>
+        <li><a href="#technology" class="nav-link">Drop Tech</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+      </ul>
+
+      <!-- Right Utility Actions -->
+      <div class="nav-actions">
+        <!-- Quick Search -->
+        <button class="nav-btn-icon" id="searchBtn" aria-label="Search Catalog" title="Search Cases">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <!-- Cart Bag Trigger -->
+        <button class="nav-cart-btn" id="cartOpenBtn" aria-label="Open Shopping Bag">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span>Bag</span>
+          <span class="cart-badge" id="cartBadgeCount">0</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======================================================================
+         SECTION 1: HERO SECTION (Exact Match to Image 1 + Ambient Caustics)
+         Zero AI card wrappers | Zero unnecessary containers | Strict 2-Column
+         ====================================================================== -->
+    <section class="hero-section" id="hero">
+      
+      <!-- Multi-Orb Ambient Lighting -->
+      <div class="hero-ambient-glow" aria-hidden="true"></div>
+      <div class="hero-ambient-glow-secondary" aria-hidden="true"></div>
+
+      <div class="hero-container">
+        
+        <!-- LEFT COLUMN: Brand, Typography, Features & CTAs -->
+        <div class="hero-content reveal-init">
+          
+          <!-- 1. Brand & Header (Top Left) -->
+          <a href="#hero" class="brand-wrapper" aria-label="Kolt Kase Inc Home">
+            <svg class="brand-logo-mark" viewBox="0 0 54 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M6 4H14.5V40H6V4Z" fill="#0D263B"/>
+              <path d="M19 23L37.5 4H47.5L27 24.5L19 23Z" fill="#0D263B"/>
+              <path d="M26.5 22.5L48 40H37.5L19 23.5L26.5 22.5Z" fill="#0D263B"/>
+            </svg>
+            <span class="brand-name">K O L T &nbsp; K A S E &nbsp; I N C</span>
+          </a>
+
+          <!-- 2. Main Copy & Typography -->
+          <h1 class="hero-headline">
+            <span class="headline-line-1">ENGINEERED</span>
+            <span class="headline-line-2">FOR <span class="headline-orange">MORE</span></span>
+          </h1>
+
+          <!-- Sub-headline -->
+          <p class="hero-subheadline">ULTRA-DURABLE. ULTRA-LIGHT. BUILT TO LAST.</p>
+
+          <!-- 3. Feature Highlights Row (Middle Left) -->
+          <div class="features-row" role="list">
+            
+            <!-- Feature 1: Shield Drop Protection -->
+            <div class="feature-col" role="listitem">
+              <div class="feature-icon-box">
+                <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  <path d="M9 12l2 2 4-4"/>
+                </svg>
+              </div>
+              <div class="feature-label">
+                MIL-STD-810G<br>DROP PROTECTION
+              </div>
+            </div>
+
+            <div class="feature-divider" aria-hidden="true"></div>
+
+            <!-- Feature 2: Featherlight Carbon Fiber -->
+            <div class="feature-col" role="listitem">
+              <div class="feature-icon-box">
+                <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/>
+                  <line x1="16" y1="8" x2="2" y2="22"/>
+                  <line x1="17.5" y1="15" x2="9" y2="15"/>
+                </svg>
+              </div>
+              <div class="feature-label">
+                FEATHERLIGHT<br>CARBON FIBER
+              </div>
+            </div>
+
+            <div class="feature-divider" aria-hidden="true"></div>
+
+            <!-- Feature 3: Shock Absorbing TPU Core -->
+            <div class="feature-col" role="listitem">
+              <div class="feature-icon-box">
+                <svg class="feature-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                </svg>
+              </div>
+              <div class="feature-label">
+                SHOCK ABSORBING<br>TPU CORE
+              </div>
+            </div>
+
+          </div>
+
+          <!-- 4. Call-to-Action Buttons (Bottom Left) -->
+          <div class="cta-group">
+            <a href="#products" class="btn-primary" role="button">
+              <span>SHOP THE COLLECTION</span>
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </a>
+            <a href="#technology" class="btn-secondary" role="button">
+              <span>LEARN MORE</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN: Dynamic 3D Product Showcase -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="product-showcase-wrapper is-floating" id="productShowcase">
+            <img src="assets/images/product-stack.png" alt="Kolt Kase Exploded 3D Case Architecture" class="mobile-product-img">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================================
+         SECTION 2: VALUE PROPOSITION STRIP (Floating Glass Island)
+         ====================================================================== -->
+    <section class="value-strip" aria-label="Customer Guarantees">
+      <div class="value-strip-container reveal-init">
+        
+        <div class="value-item">
+          <div class="value-icon-wrapper">
+            <svg class="value-icon" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+          </div>
+          <div class="value-text">
+            <h4>Free Worldwide Shipping</h4>
+            <p>Express courier on all orders over $50</p>
+          </div>
+        </div>
+
+        <div class="value-item">
+          <div class="value-icon-wrapper">
+            <svg class="value-icon" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <polyline points="9 11 12 14 22 4"></polyline>
+            </svg>
+          </div>
+          <div class="value-text">
+            <h4>100-Day Drop Guarantee</h4>
+            <p>Zero risk. Love it or replace it free</p>
+          </div>
+        </div>
+
+        <div class="value-item">
+          <div class="value-icon-wrapper">
+            <svg class="value-icon" viewBox="0 0 24 24">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+          </div>
+          <div class="value-text">
+            <h4>Custom Engraving</h4>
+            <p>Precision laser-etched monograms</p>
+          </div>
+        </div>
+
+        <div class="value-item">
+          <div class="value-icon-wrapper">
+            <svg class="value-icon" viewBox="0 0 24 24">
+              <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+              <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+            </svg>
+          </div>
+          <div class="value-text">
+            <h4>24/7 Premium Support</h4>
+            <p>Direct line to Kolt design engineers</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 3: TOP SELLING & CUSTOM DESIGNS GRID
+         Frosted Glassmorphism Product Cards with Floating Mockups
+         ====================================================================== -->
+    <section class="products-section" id="products">
+      
+      <div class="section-header-centered reveal-init">
+        <span class="section-tag">Tested In Extreme Conditions</span>
+        <h2 class="section-title-large">Best-Selling Cases & <span class="gradient-text-orange">Custom Designs</span></h2>
+        <p class="section-subtitle">Engineered with aerospace-grade materials, precision-machined tolerances, and full MagSafe Qi2 compatibility.</p>
+        
+        <!-- Filter Tabs -->
+        <div class="product-filter-tabs" role="tablist">
+          <button class="filter-tab active" data-filter="all">All Releases</button>
+          <button class="filter-tab" data-filter="carbon">Carbon Fiber</button>
+          <button class="filter-tab" data-filter="armor">Armor TPU</button>
+          <button class="filter-tab" data-filter="graphics">Graphic Prints</button>
+          <button class="filter-tab" data-filter="minimalist">Minimalist</button>
+        </div>
+      </div>
+
+      <!-- 4-Column Product Grid -->
+      <div class="products-grid" id="productsGrid">
+        
+        <!-- Card 1: Carbon Fiber -->
+        <article class="product-card reveal-init delay-1" data-category="carbon">
+          <div class="card-image-stage">
+            <span class="card-badge-top badge-hot">Best Seller</span>
+            <img src="assets/images/case-carbon-fiber.svg" alt="Kolt Apex MagSafe Carbon Fiber Case" class="card-case-mockup">
+          </div>
+          <div class="card-details">
+            <div class="card-rating-row">
+              <span class="card-rating-stars">★★★★★</span>
+              <span class="card-rating-count">(4.9 · 1,420)</span>
+            </div>
+            <a href="#customizer" class="card-product-title">Apex MagSafe Carbon Case</a>
+            <span class="card-finish-label">3K Twill Aerospace Carbon Weave</span>
+            <div class="card-price-row">
+              <div class="card-price-group">
+                <span class="card-price-current">$58.00</span>
+                <span class="card-price-original">$72.00</span>
+              </div>
+              <button class="card-btn-add" data-id="1" data-title="Apex Carbon Fiber Case" data-price="58" data-img="assets/images/case-carbon-fiber.svg" data-finish="Carbon Fiber">
+                Add to Bag
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2: Deep Blue Armor TPU -->
+        <article class="product-card reveal-init delay-2" data-category="armor">
+          <div class="card-image-stage">
+            <span class="card-badge-top">Tactical</span>
+            <img src="assets/images/case-deep-blue.svg" alt="Kolt Tactical Armor Deep Blue TPU Case" class="card-case-mockup">
+          </div>
+          <div class="card-details">
+            <div class="card-rating-row">
+              <span class="card-rating-stars">★★★★★</span>
+              <span class="card-rating-count">(4.9 · 880)</span>
+            </div>
+            <a href="#customizer" class="card-product-title">Tactical Armor TPU Navy</a>
+            <span class="card-finish-label">High-Impact Shock Core · Navy</span>
+            <div class="card-price-row">
+              <div class="card-price-group">
+                <span class="card-price-current">$48.00</span>
+                <span class="card-price-original">$60.00</span>
+              </div>
+              <button class="card-btn-add" data-id="2" data-title="Tactical Armor Navy TPU" data-price="48" data-img="assets/images/case-deep-blue.svg" data-finish="Tactical Navy">
+                Add to Bag
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3: Graphic Contour Topography -->
+        <article class="product-card reveal-init delay-3" data-category="graphics">
+          <div class="card-image-stage">
+            <span class="card-badge-top badge-hot">Popular</span>
+            <img src="assets/images/case-design-topography.svg" alt="Kolt Contour Topography Graphic Case" class="card-case-mockup">
+          </div>
+          <div class="card-details">
+            <div class="card-rating-row">
+              <span class="card-rating-stars">★★★★★</span>
+              <span class="card-rating-count">(5.0 · 640)</span>
+            </div>
+            <a href="#customizer" class="card-product-title">Contour Topo Edition</a>
+            <span class="card-finish-label">Elevation Map Vector Inlay</span>
+            <div class="card-price-row">
+              <div class="card-price-group">
+                <span class="card-price-current">$54.00</span>
+                <span class="card-price-original">$68.00</span>
+              </div>
+              <button class="card-btn-add" data-id="3" data-title="Contour Topo Edition" data-price="54" data-img="assets/images/case-design-topography.svg" data-finish="Contour Topo">
+                Add to Bag
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4: Minimalist Matte Black -->
+        <article class="product-card reveal-init delay-4" data-category="minimalist">
+          <div class="card-image-stage">
+            <span class="card-badge-top">Stealth</span>
+            <img src="assets/images/case-matte-black.svg" alt="Kolt Stealth Minimalist Matte Black Case" class="card-case-mockup">
+          </div>
+          <div class="card-details">
+            <div class="card-rating-row">
+              <span class="card-rating-stars">★★★★★</span>
+              <span class="card-rating-count">(4.8 · 1,120)</span>
+            </div>
+            <a href="#customizer" class="card-product-title">Stealth Matte Black</a>
+            <span class="card-finish-label">Soft-Touch Anti-Fingerprint Shield</span>
+            <div class="card-price-row">
+              <div class="card-price-group">
+                <span class="card-price-current">$44.00</span>
+                <span class="card-price-original">$55.00</span>
+              </div>
+              <button class="card-btn-add" data-id="4" data-title="Stealth Matte Black" data-price="44" data-img="assets/images/case-matte-black.svg" data-finish="Matte Black">
+                Add to Bag
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 5: Graphic Alpine Peak -->
+        <article class="product-card reveal-init delay-1" data-category="graphics">
+          <div class="card-image-stage">
+            <img src="assets/images/case-design-alpine.svg" alt="Kolt Alpine Summit Graphic Case" class="card-case-mockup">
+          </div>
+          <div class="card-details">
+            <div class="card-rating-row">
+              <span class="card-rating-stars">★★★★★</span>
+              <span class="card-rating-count">(4.9 · 530)</span>
+            </div>
+            <a href="#customizer" class="card-product-title">Alpine Summit Series</a>
+            <span class="card-finish-label">Mountain Peak Matte Finish</span>
+            <div class="card-price-row">
+              <div class="card-price-group">
+                <span class="card-price-current">$54.00</span>
+                <span class="card-price-original">$65.00</span>
+              </div>
+              <button class="card-btn-add" data-id="5" data-title="Alpine Summit Case" data-price="54" data-img="assets/images/case-design-alpine.svg" data-finish="Alpine Graphic">
+                Add to Bag
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 6: Graphic Marble -->
+        <article class="product-card reveal-init delay-2" data-category="graphics">
+          <div class="card-image-stage">
+            <img src="assets/images/case-design-marble.svg" alt="Kolt Obsidian Marble Case" class="card-case-mockup">
+          </div>
+          <div class="card-details">
+            <div class="card-rating-row">
+              <span class="card-rating-stars">★★★★★</span>
+              <span class="card-rating-count">(4.9 · 710)</span>
+            </div>
+            <a href="#customizer" class="card-product-title">Obsidian Marble Armor</a>
+            <span class="card-finish-label">Glossy Mineral Vein Finish</span>
+            <div class="card-price-row">
+              <div class="card-price-group">
+                <span class="card-price-current">$56.00</span>
+                <span class="card-price-original">$68.00</span>
+              </div>
+              <button class="card-btn-add" data-id="6" data-title="Obsidian Marble Armor" data-price="56" data-img="assets/images/case-design-marble.svg" data-finish="Obsidian Marble">
+                Add to Bag
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 7: Minimalist Sand Beige -->
+        <article class="product-card reveal-init delay-3" data-category="minimalist">
+          <div class="card-image-stage">
+            <img src="assets/images/case-sand-beige.svg" alt="Kolt Sand Beige Minimalist Case" class="card-case-mockup">
+          </div>
+          <div class="card-details">
+            <div class="card-rating-row">
+              <span class="card-rating-stars">★★★★★</span>
+              <span class="card-rating-count">(4.8 · 390)</span>
+            </div>
+            <a href="#customizer" class="card-product-title">Desert Dune Beige</a>
+            <span class="card-finish-label">Warm Architectural Tone</span>
+            <div class="card-price-row">
+              <div class="card-price-group">
+                <span class="card-price-current">$46.00</span>
+                <span class="card-price-original">$58.00</span>
+              </div>
+              <button class="card-btn-add" data-id="7" data-title="Desert Dune Beige Case" data-price="46" data-img="assets/images/case-sand-beige.svg" data-finish="Sand Beige">
+                Add to Bag
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 8: Armor Stone Gray -->
+        <article class="product-card reveal-init delay-4" data-category="armor">
+          <div class="card-image-stage">
+            <img src="assets/images/case-stone-gray.svg" alt="Kolt Stone Gray Armor Case" class="card-case-mockup">
+          </div>
+          <div class="card-details">
+            <div class="card-rating-row">
+              <span class="card-rating-stars">★★★★★</span>
+              <span class="card-rating-count">(4.9 · 490)</span>
+            </div>
+            <a href="#customizer" class="card-product-title">Granite Slate Armor</a>
+            <span class="card-finish-label">Dual-Molded Reinforced Edges</span>
+            <div class="card-price-row">
+              <div class="card-price-group">
+                <span class="card-price-current">$48.00</span>
+                <span class="card-price-original">$60.00</span>
+              </div>
+              <button class="card-btn-add" data-id="8" data-title="Granite Slate Armor Case" data-price="48" data-img="assets/images/case-stone-gray.svg" data-finish="Stone Gray">
+                Add to Bag
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 4: FULL-WIDTH FEATURE BANNER (High-Contrast Carbon Mesh)
+         ====================================================================== -->
+    <section class="carbon-banner-section" id="technology">
+      <div class="carbon-banner-container reveal-init">
+        
+        <div class="carbon-banner-content">
+          <span class="carbon-banner-tag">Mil-Spec Protection Standard</span>
+          <h2 class="carbon-banner-headline">Precision Engineered <span class="gradient-text-orange">Protection</span></h2>
+          <p class="carbon-banner-subtext">Custom-molded to 0.01mm accuracy. Maximum impact dispersion with minimal bulk. Survives extreme drops, abrasions, and mountain ascents while retaining full MagSafe and wireless charging connectivity.</p>
+          
+          <!-- Key Metrics -->
+          <div class="carbon-stats-grid">
+            <div class="stat-item">
+              <h3>14 FT</h3>
+              <p>Drop Certified</p>
+            </div>
+            <div class="stat-item">
+              <h3>0.01 mm</h3>
+              <p>CNC Tolerance</p>
+            </div>
+            <div class="stat-item">
+              <h3>100%</h3>
+              <p>MagSafe & Qi2</p>
+            </div>
+            <div class="stat-item">
+              <h3>34 g</h3>
+              <p>Featherweight</p>
+            </div>
+          </div>
+
+          <a href="#customizer" class="btn-primary" role="button">
+            <span>BUILD YOUR CUSTOM CASE</span>
+            <span class="btn-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="carbon-banner-visual">
+          <img src="assets/images/case-carbon-fiber.svg" alt="Kolt Kase Precision Carbon Showcase" class="carbon-case-showcase">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 5: CUSTOM CASE COLLAGE & STUDIO CUSTOMIZER
+         ====================================================================== -->
+    <section class="collage-section" id="customizer">
+      
+      <div class="section-header-centered reveal-init">
+        <span class="section-tag">Made To Order</span>
+        <h2 class="section-title-large">Custom Case Studio & <span class="gradient-text-orange">Series Highlights</span></h2>
+        <p class="section-subtitle">Select a curated material or personalize your case with high-precision laser-etched monograms.</p>
+      </div>
+
+      <div class="collage-split-layout">
+        
+        <!-- Left 2x2 Category Grid -->
+        <div class="category-matrix-grid">
+          
+          <a href="#products" class="category-tile reveal-init delay-1">
+            <div class="tile-text">
+              <h3>Tactical Series</h3>
+              <p>Heavy duty multi-layer perimeter protection for rough environments.</p>
+              <span class="tile-link-arrow">Explore Tactical →</span>
+            </div>
+            <div class="tile-mockup-wrapper">
+              <img src="assets/images/case-deep-blue.svg" alt="Tactical Series" class="tile-case-img">
+            </div>
+          </a>
+
+          <a href="#products" class="category-tile reveal-init delay-2">
+            <div class="tile-text">
+              <h3>Ultra-Slim Carbon</h3>
+              <p>Real 3K aerospace twill carbon fiber. Ultralight pocket profile.</p>
+              <span class="tile-link-arrow">Explore Carbon →</span>
+            </div>
+            <div class="tile-mockup-wrapper">
+              <img src="assets/images/case-carbon-fiber.svg" alt="Ultra-Slim Carbon" class="tile-case-img">
+            </div>
+          </a>
+
+          <a href="#products" class="category-tile reveal-init delay-3">
+            <div class="tile-text">
+              <h3>Topo & Geo Prints</h3>
+              <p>Curated cartographic contours and geological mineral textures.</p>
+              <span class="tile-link-arrow">Explore Graphics →</span>
+            </div>
+            <div class="tile-mockup-wrapper">
+              <img src="assets/images/case-design-topography.svg" alt="Topo & Geo Prints" class="tile-case-img">
+            </div>
+          </a>
+
+          <a href="#products" class="category-tile reveal-init delay-4">
+            <div class="tile-text">
+              <h3>Minimalist Matte</h3>
+              <p>Silky velvet soft-touch finish with zero fingerprints and sleek grip.</p>
+              <span class="tile-link-arrow">Explore Matte →</span>
+            </div>
+            <div class="tile-mockup-wrapper">
+              <img src="assets/images/case-matte-black.svg" alt="Minimalist Matte" class="tile-case-img">
+            </div>
+          </a>
+
+        </div>
+
+        <!-- Right Interactive Customizer Studio -->
+        <div class="studio-customizer-panel reveal-init delay-2">
+          
+          <div class="studio-header">
+            <span class="studio-tag">Live Studio Preview</span>
+            <h3 class="studio-title">Laser Monogram Studio</h3>
+          </div>
+
+          <!-- Live Mockup Display -->
+          <div class="studio-mockup-stage">
+            <img src="assets/images/case-carbon-fiber.svg" alt="Customizer Preview Mockup" id="studioMockupImg" class="studio-case-img">
+            <div class="studio-engraving-overlay" id="studioEngravingText">KOLT-01</div>
+          </div>
+
+          <!-- Interactive Controls -->
+          <div class="studio-controls">
+            
+            <!-- Material Swatches -->
+            <div>
+              <label class="studio-control-label">1. Choose Material Finish</label>
+              <div class="studio-swatches">
+                <button class="studio-swatch-btn active" data-src="assets/images/case-carbon-fiber.svg" data-material="Carbon Fiber">Carbon</button>
+                <button class="studio-swatch-btn" data-src="assets/images/case-deep-blue.svg" data-material="Tactical Navy">Navy</button>
+                <button class="studio-swatch-btn" data-src="assets/images/case-matte-black.svg" data-material="Matte Black">Black</button>
+                <button class="studio-swatch-btn" data-src="assets/images/case-sand-beige.svg" data-material="Desert Sand">Sand</button>
+              </div>
+            </div>
+
+            <!-- Custom Text Input -->
+            <div>
+              <label for="monogramInput" class="studio-control-label">2. Custom Laser Engraving (Max 12 chars)</label>
+              <div class="studio-input-group">
+                <input type="text" id="monogramInput" class="studio-text-input" placeholder="Enter name or initials..." maxlength="12" value="KOLT-01">
+              </div>
+            </div>
+
+            <!-- Add to Bag Button -->
+            <button class="studio-btn-add" id="studioAddBtn">
+              Add Custom Case to Bag &middot; $64.00
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 6: MIL-SPEC DROP TEST & LAYERED ARCHITECTURE BREAKDOWN
+         ====================================================================== -->
+    <section class="tech-breakdown-section" aria-label="Drop Protection Engineering">
+      <div class="tech-container">
+        
+        <div class="section-header-centered reveal-init" style="margin-bottom: 3.8rem;">
+          <span class="section-tag">Anatomy Of Protection</span>
+          <h2 class="section-title-large">Four Layers. <span class="gradient-text-orange">Zero Compromise.</span></h2>
+          <p class="section-subtitle">How Kolt Kase disperses kinetic energy across four specialized architectural tiers.</p>
+        </div>
+
+        <div class="tech-grid">
+          
+          <div class="tech-layers-list">
+            
+            <div class="tech-layer-item reveal-init delay-1">
+              <span class="layer-number">01</span>
+              <div class="layer-info">
+                <h4>Oleophobic Scratch-Resistant Shell</h4>
+                <p>Nanoscale coating repels fingerprints, oils, and abrasive dust while maintaining a satin tactile grip.</p>
+              </div>
+            </div>
+
+            <div class="tech-layer-item reveal-init delay-2">
+              <span class="layer-number">02</span>
+              <div class="layer-info">
+                <h4>Aerospace 3K Carbon Fiber Armor</h4>
+                <p>High-tensile strength carbon weave absorbs direct punctures and prevents frame torsion upon impact.</p>
+              </div>
+            </div>
+
+            <div class="tech-layer-item reveal-init delay-3">
+              <span class="layer-number">03</span>
+              <div class="layer-info">
+                <h4>Honeycomb Kinetic Dispersion Chamber</h4>
+                <p>Hexagonal air-cell micro-pockets channel shockwaves outward and away from glass backs and camera sensors.</p>
+              </div>
+            </div>
+
+            <div class="tech-layer-item reveal-init delay-4">
+              <span class="layer-number">04</span>
+              <div class="layer-info">
+                <h4>Raised Beveled TPU Perimeter Cushion</h4>
+                <p>1.6mm raised screen rim and 2.4mm deep camera ring prevent contact when placed flat or dropped on uneven surfaces.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="tech-diagram-stage reveal-init delay-2">
+            <img src="assets/images/product-stack.png" alt="Exploded Case Architecture Diagram" class="tech-diagram-img">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 7: VERIFIED CUSTOMER REVIEWS & SOCIAL PROOF
+         ====================================================================== -->
+    <section class="reviews-section" id="reviews">
+      
+      <div class="section-header-centered reveal-init">
+        <span class="section-tag">Field-Tested Worldwide</span>
+        <h2 class="section-title-large">Trusted By Over <span class="gradient-text-orange">18,000</span> Adventurers</h2>
+      </div>
+
+      <!-- Trust Bar -->
+      <div class="reviews-summary-bar reveal-init">
+        <div class="reviews-score-block">
+          <span class="reviews-big-number">4.9</span>
+          <div>
+            <div class="reviews-stars-score">★★★★★</div>
+            <span class="reviews-badge-verified">Based on 18,420 Verified Customer Ratings</span>
+          </div>
+        </div>
+        <div class="reviews-badge-verified">
+          100% Drop Replacement Success Rate
+        </div>
+      </div>
+
+      <!-- Reviews Grid -->
+      <div class="reviews-grid">
+        
+        <article class="review-card reveal-init delay-1">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <h3 class="review-title">"Survived a 20ft drop on granite boulders."</h3>
+            <p class="review-body">I dropped my iPhone 16 Pro while scrambling up the Flatirons in Boulder. The phone bounced off jagged rock and landed face down. Not a single crack on the glass or camera lenses. This case is incredible.</p>
+          </div>
+          <div class="review-author-row">
+            <span class="review-author-name">Marcus V. · Verified Climber</span>
+            <span class="review-device-tag">Apex Carbon Case</span>
+          </div>
+        </article>
+
+        <article class="review-card reveal-init delay-2">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <h3 class="review-title">"The best MagSafe magnet strength I've ever felt."</h3>
+            <p class="review-body">Car mounts normally drop heavy phones when hitting potholes. The MagSafe ring inside Kolt Kase locks onto my magnetic wireless mount like a vise grip. Plus, the laser engraving looks ultra clean.</p>
+          </div>
+          <div class="review-author-row">
+            <span class="review-author-name">Sarah K. · Verified Buyer</span>
+            <span class="review-device-tag">Custom Monogram Studio</span>
+          </div>
+        </article>
+
+        <article class="review-card reveal-init delay-3">
+          <div>
+            <div class="review-stars">★★★★★</div>
+            <h3 class="review-title">"Featherlight yet tank-like protection."</h3>
+            <p class="review-body">Most heavy duty cases turn your phone into a bulky brick. Kolt somehow kept the profile slim and light while giving you military grade confidence. The metallic orange accents are gorgeous.</p>
+          </div>
+          <div class="review-author-row">
+            <span class="review-author-name">Dave L. · Product Designer</span>
+            <span class="review-device-tag">Tactical Armor Navy</span>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================================
+         SECTION 8: FAQ ACCORDION
+         ====================================================================== -->
+    <section class="faq-section" id="faq">
+      
+      <div class="section-header-centered reveal-init">
+        <span class="section-tag">Got Questions?</span>
+        <h2 class="section-title-large">Frequently Asked <span class="gradient-text-orange">Questions</span></h2>
+      </div>
+
+      <div class="faq-list reveal-init">
+        
+        <div class="faq-item active">
+          <button class="faq-button" aria-expanded="true">
+            <span>Will MagSafe chargers and magnetic mounts work through the case?</span>
+            <span class="faq-icon-cross">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, 100%. Every Kolt Kase features an integrated array of 38 N52 neodymium magnets aligned to exact Apple Qi2 standards, delivering up to 15W fast wireless charging and twice the magnetic holding force of bare devices.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-button" aria-expanded="false">
+            <span>What is the 100-Day Drop Guarantee policy?</span>
+            <span class="faq-icon-cross">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We stand behind our engineering. If your phone sustains damage from a fall while protected by a Kolt Kase within 100 days of delivery, or if your case breaks under normal outdoor use, our support team will replace your case immediately or issue a full refund with no return shipping fees.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-button" aria-expanded="false">
+            <span>How durable is the carbon fiber and laser monogram engraving?</span>
+            <span class="faq-icon-cross">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Our carbon fiber is authentic 3K aerospace-spec twill, sealed beneath an impact-cured resin that is impervious to key scratches, moisture, and UV discoloration. Laser engravings are etched directly into the substrate so they will never rub or peel off.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-button" aria-expanded="false">
+            <span>Do you ship internationally and how long does it take?</span>
+            <span class="faq-icon-cross">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We ship worldwide from our USA and European fulfillment hubs. US domestic orders arrive within 2–3 business days. International express courier deliveries typically take 4–7 business days. All orders over $50 qualify for complimentary tracking and insurance.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       SECTION 9: SLIDE-OUT CART DRAWER & MODAL
+       ====================================================================== -->
+  <div class="cart-drawer-overlay" id="cartOverlay">
+    <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart">
+      
+      <div class="cart-drawer-header">
+        <h3 class="cart-drawer-title">Your Bag (<span id="cartHeaderCount">0</span>)</h3>
+        <button class="cart-close-btn" id="cartCloseBtn" aria-label="Close Shopping Bag">&times;</button>
+      </div>
+
+      <!-- Free Shipping Meter -->
+      <div class="cart-shipping-bar">
+        <span id="shippingMeterText">Add $50.00 more for Free Worldwide Express Shipping!</span>
+        <div class="shipping-progress-track">
+          <div class="shipping-progress-fill" id="shippingProgressFill" style="width: 0%;"></div>
+        </div>
+      </div>
+
+      <!-- Cart Items List -->
+      <div class="cart-items-container" id="cartItemsList">
+        <div class="cart-empty-msg">
+          <p>Your bag is currently empty.</p>
+          <p style="margin-top: 0.5rem; font-size: 0.8rem;">Explore our best-sellers to equip your phone.</p>
+        </div>
+      </div>
+
+      <!-- Cart Drawer Footer -->
+      <div class="cart-drawer-footer">
+        <div class="cart-subtotal-row">
+          <span class="cart-subtotal-label">Subtotal</span>
+          <span class="cart-subtotal-value" id="cartSubtotalAmount">$0.00</span>
+        </div>
+        <button class="cart-checkout-btn" id="checkoutBtn">
+          Proceed to Checkout &middot; Instant Dispatch
+        </button>
+      </div>
+
+    </aside>
+  </div>
+
+  <!-- ======================================================================
+       SECTION 10: LUXURY FOOTER
+       Deep Dark Carbon Navy | Brand Promise | Payment Badges
+       ====================================================================== -->
+  <footer class="global-footer">
+    <div class="footer-container">
+      
+      <div class="footer-top-grid">
+        
+        <!-- Brand Info -->
+        <div class="footer-brand-col">
+          <a href="#hero" class="footer-logo-row">
+            <svg class="nav-logo-mark" viewBox="0 0 54 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 4H14.5V40H6V4Z" fill="#F88E4C"/>
+              <path d="M19 23L37.5 4H47.5L27 24.5L19 23Z" fill="#F88E4C"/>
+              <path d="M26.5 22.5L48 40H37.5L19 23.5L26.5 22.5Z" fill="#F88E4C"/>
+            </svg>
+            <span class="footer-brand-text">Kolt Kase Inc</span>
+          </a>
+          <p class="footer-tagline">Architects of extreme durability. Built for climbers, creators, and professionals who demand uncompromising protection with zero unnecessary bulk.</p>
+        </div>
+
+        <!-- Shop Column -->
+        <div>
+          <h4 class="footer-col-title">Collection</h4>
+          <ul class="footer-links-list">
+            <li><a href="#products" class="footer-link">Carbon Fiber Series</a></li>
+            <li><a href="#products" class="footer-link">Tactical Armor TPU</a></li>
+            <li><a href="#products" class="footer-link">Contour Graphic Prints</a></li>
+            <li><a href="#products" class="footer-link">Minimalist Matte</a></li>
+            <li><a href="#customizer" class="footer-link">Custom Monogram Studio</a></li>
+          </ul>
+        </div>
+
+        <!-- Engineering Column -->
+        <div>
+          <h4 class="footer-col-title">Engineering</h4>
+          <ul class="footer-links-list">
+            <li><a href="#technology" class="footer-link">MIL-STD-810G Standard</a></li>
+            <li><a href="#technology" class="footer-link">Kinetic Honeycomb Core</a></li>
+            <li><a href="#technology" class="footer-link">MagSafe Qi2 Alignment</a></li>
+            <li><a href="#faq" class="footer-link">100-Day Drop Guarantee</a></li>
+            <li><a href="#faq" class="footer-link">Warranty Claim</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Signup -->
+        <div>
+          <h4 class="footer-col-title">Join The Crew</h4>
+          <p class="footer-newsletter-text">Subscribe for exclusive limited studio drops, product releases, and 15% off your first order.</p>
+          <form class="footer-newsletter-form" id="newsletterForm" onsubmit="event.preventDefault(); alert('Welcome to Kolt Kase Club! Your 15% discount code is: KOLT15');">
+            <input type="email" class="footer-input-email" placeholder="Enter your email" required aria-label="Email Address">
+            <button type="submit" class="footer-btn-submit">Join</button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Row -->
+      <div class="footer-bottom-row">
+        <span>&copy; 2026 Kolt Kase Inc. All Rights Reserved. Engineered for more.</span>
+        
+        <div class="footer-badges">
+          <span class="payment-pill">Apple Pay</span>
+          <span class="payment-pill">Google Pay</span>
+          <span class="payment-pill">Visa</span>
+          <span class="payment-pill">Mastercard</span>
+          <span class="payment-pill">Amex</span>
+          <span class="payment-pill">PayPal</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
