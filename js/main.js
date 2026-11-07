@@ -35,9 +35,12 @@ document.addEventListener('DOMContentLoaded', () => {
   if (valueStrip) setTimeout(() => valueStrip.classList.add('revealed'), 250);
 
   // =========================================================================
-  // 2. Header Scroll Glassmorphic Transition
+  // 2. Header Scroll & Mobile Navigation Drawer
   // =========================================================================
   const globalHeader = document.getElementById('globalHeader');
+  const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+  const mobileNavDrawer = document.getElementById('mobileNavDrawer');
+  const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
   
   const handleScroll = () => {
     if (window.scrollY > 25) {
@@ -49,6 +52,38 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('scroll', handleScroll, { passive: true });
   handleScroll();
+
+  // Mobile Menu Toggle
+  if (mobileMenuToggle && mobileNavDrawer) {
+    const toggleMobileMenu = () => {
+      const isOpen = mobileNavDrawer.classList.contains('open');
+      if (isOpen) {
+        mobileNavDrawer.classList.remove('open');
+        mobileMenuToggle.classList.remove('active');
+        mobileMenuToggle.setAttribute('aria-expanded', 'false');
+        mobileNavDrawer.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      } else {
+        mobileNavDrawer.classList.add('open');
+        mobileMenuToggle.classList.add('active');
+        mobileMenuToggle.setAttribute('aria-expanded', 'true');
+        mobileNavDrawer.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      }
+    };
+
+    mobileMenuToggle.addEventListener('click', toggleMobileMenu);
+
+    mobileNavLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        mobileNavDrawer.classList.remove('open');
+        mobileMenuToggle.classList.remove('active');
+        mobileMenuToggle.setAttribute('aria-expanded', 'false');
+        mobileNavDrawer.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      });
+    });
+  }
 
   // =========================================================================
   // 3. Hero 3D Parallax & Depth Tilt
